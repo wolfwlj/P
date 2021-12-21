@@ -1,0 +1,221 @@
+/* ========== Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ========== Standard ========== */
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+body{
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+/* ========== Header ========== */
+
+header{
+    width: 200%;
+    margin: auto;
+    height: 70px;
+    background-color: #282c2f;
+    
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#logoHeader{
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.ayo{
+    text-decoration: none;
+    color: #e9eaec;
+    font-weight: lighter;
+    padding-top: 5px;
+    height: 25px;
+    transition: 0.1s;
+    border-radius: 2px;
+}
+
+.ayo:hover{
+    background-color: #3f4346;
+    transition: 0.1s;
+}
+.active:hover{
+    background-color: #375f77;
+    height: 25px;
+    border-radius: 2px;
+    transition: 0.1s;
+}
+.active{
+    background-color: #2a526b;
+    text-decoration: none;
+    color: #e9eaec;
+    font-weight: lighter;
+    padding-top: 5px;
+    height: 25px;
+    transition: 0.1s;
+    border-radius: 2px;
+
+}
+
+#headerItems{
+    margin-top: 23px;
+    text-align: center;
+}
+#daItemsCover{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 270px;
+    grid-template-rows: 50px;
+    float: right;
+   
+}
+
+
+#status{
+    margin-left: 80px!important;
+    float: right!important;
+    height: 35px!important;
+    margin-top: -4px!important;
+    width: 100px!important;
+    border: 2px solid #5F6366!important;
+    border-radius: 2px!important;
+    background-color: #282C2F!important;
+    color: white!important;
+    cursor: pointer!important;
+    transition: 0.1s!important;
+    font-size: 15px!important;
+}
+#status:hover{
+    background-color: #363b3f!important;
+    transition: 0.1s!important;
+}
+
+#streepje{
+    margin-top: 35px;
+    width: 100%;
+    background-color: #5F6366;
+    border: none;
+    height: 0.5px;
+}
+#otherPages{
+    float: right;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 80px 120px;
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: -200px;
+}
+#otherPages a{
+    text-decoration: none;
+    color: grey;
+}
+.pageDivs i{
+    color: grey;
+}
+.pageDivs{
+    cursor: pointer;
+    user-select: none;
+}
+#FAQ-div{
+    margin-left: -4px;
+    
+}
+/* ========== Einde Header ========== */
+
+/* ========== BREAKLINE ========== */
+
+
+
+/* ========== BREAKLINE ========== */
+
+/* ========== Footer ========== */
+footer{
+    width: 100%;
+    height: 230px;
+    max-height: 230px;
+    background-color: #282c2f;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    
+}
+footer div{
+    max-height: 225px;
+}
+#footerContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;   
+}
+
+.footerH2{
+    color: white;
+    font-size: 19px;
+    margin-left: 5px;
+    margin-top: 25px;
+    border-left: 5px solid #48748f;
+    padding-left: 5px;
+}
+.footerText{
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+    width: 400px;
+    font-family: 'Work Sans', sans-serif;
+}
+.footerLinks{
+    text-decoration: none;
+    color: white;
+}
+.footerLinks:hover{
+    text-decoration: underline;
+}
+#footerUL li{
+    list-style: none;
+    margin: 8px;
+    text-align: left;
+    margin-left: -35px;
+}
+#sendConfirmation{
+    height: 25px;
+    cursor: pointer;
+    background-color: #2a526b;
+    border: none;
+    border-radius: 2px;
+    color: #e9eaec;
+}
+#sendConfirmation:hover{
+    background-color: #375f77;
+}
+
+#nieuwsbrief{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 5px;
+}
+#socialMedia{
+   display: grid;
+   grid-template-columns: 250px 300px;
+}
+
+#facebook iframe{
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+    
+}
+/* ========== Einde Footer ========== */

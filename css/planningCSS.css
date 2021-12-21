@@ -1,0 +1,228 @@
+/* ========== Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ========== TYP HIERONDER JOUW CODE ========== */
+footer{
+  margin-bottom: -300px;
+}
+*{font-family: 'Libre Franklin', sans-serif;}
+
+
+  /* ====== Create Tab ====== */
+
+  #createDiv{
+    width: 300px;
+    height: 800px;
+    
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    margin: 1px;
+  }
+
+  #create{
+    height: 100px;
+    width: 300px;
+    background-color: #F5F5F5;
+    margin-top: -20px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    cursor: pointer;
+    border-bottom: 0.5px solid black;
+    transition: 0.1s;
+    margin-bottom: 1%;
+  }
+  #create:hover{
+    background-color: #f0f0ff;
+    transition: 0.1s;
+  }
+  #create h2{
+    text-align: center;
+    padding-top: 35px;
+    user-select: none;
+  }
+
+
+/* ====== End of Create Tab ====== */
+
+  button {
+    width: 75px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px rgb(218, 218, 218);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+  } 
+  
+  #header1 {
+    padding: 10px;
+    color: gray;
+    font-size: 26px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  #header1 button {
+    background-color:#3f4346;
+  }
+  #container {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 950px;
+  }
+  #weekdays {
+    width: 100%;
+    display: flex;
+    color: gray;
+  }
+  #weekdays div {
+    width: 130px;
+    padding: 10px;
+  }
+  #calendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .day {
+    width: 125px;
+    padding: 10px;
+    height: 125px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin: 5px;
+    box-shadow: 0px 0px 3px #CBD4C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .day:hover {
+    background-color: #e8eefa;
+  }
+  
+  .day + #currentDay {
+    background-color:#b8cfe7;
+    border: 2px solid whitesmoke;
+  }
+  .event {
+    font-size: 11px;
+    padding: 8px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    min-height: 25px;
+    max-height: 55px;
+    overflow: hidden;
+    
+  }
+  .padding {
+    cursor: default !important;
+    background-color: #FFFCFF !important;
+    box-shadow: none !important;
+  }
+  #newEventModal, #deleteEventModal {
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 450px;
+    height: 430px;
+    top: 100px;
+    left: calc(48% - 160px);
+    position: absolute;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+  #eventTitleInput {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+  }
+  #eventBesInput {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+  }
+  #eventDeelInput {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+  }
+  #eventTitleInput.error {
+    border: 2px solid red;
+  }
+  #cancelButton, #deleteButton {
+    background-color: #3f4346;
+  }
+  #saveButton, #closeButton {
+    background-color: #3f4346;
+  }
+
+  #modalBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height: 108vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  #t1{
+    font-weight: bold;
+  }
+  #t2{
+    font-weight: bold;
+  }
+  #t3{
+    font-weight: bold;
+  }
+
+  /* ===== Create ===== */
+
+.createLook{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  border-radius: 5px;
+  min-height: 25px;
+  max-height: 55px;
+  overflow: hidden;
+  margin-bottom: 1%;
+  padding-left: 20px;
+  cursor: move;
+}
+.createLook:hover{
+  border: 1px dashed black;
+  transition: 0.1s;
+}
+#createdDiv{
+  max-height: 700px;
+  overflow: auto;
+}

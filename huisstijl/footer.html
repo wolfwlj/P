@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <footer>
+        <div id="footer">
+            <div id="footerContent">
+                <div id="footerInfo" class="footerDivs">
+                    <h2 class="footerH2">PlanCo</h2>
+                    <p class="footerText">PlanCo is een website gemaakt voor particulieren en bedrijven die een mooi en
+                        snel overzicht van hun programma, project en doel willen hebben. <br><br>
+                        <i class="fas fa-phone-alt"></i> Tel: <b>010-12345678</b> <br><br>
+                        <i class="fas fa-envelope"></i> E-Mail: <b>mail@mail.com</b>
+                    </p>
+                </div>
+                <div id="socialMedia" class="footerDivs">
+                    <div id="insideMedia">
+                        <h2 class="footerH2">Volg ons op Social Media</h2>
+                        <ul id="footerUL">
+                            <li><a class="footerLinks" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a class="footerLinks" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a class="footerLinks" href="#"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+                            <li><a class="footerLinks" href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div id="facebook">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPlanCo-110508151272921&tabs=timeline&width=280&height=190&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="280" height="190" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+                <div id="nieuwsbriefDiv" class="footerDivs">
+                    <h2 class="footerH2">Abonneer je op onze nieuwsbrief!</h2>
+                    <p class="footerText">Elke maand versturen we updates over de veranderingen van de website, zowel
+                        toevoegingen als aanpassingen van functies waarvan wij vonden dat het effici&#x00eb;nter kon. <br><br>
+                        Rond iedere 2 weken
+                        versturen wij jou ook de beste deals die onze website te bieden heeft.</p>
+                    <form action="php/verzend.php" method="POST">
+                        <input type="text" name="nieuws" id="nieuwsbrief" placeholder="E-Mail" autocomplete="off">
+                        <input type="submit" name="knopje" value="Verzenden" id="sendConfirmation">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

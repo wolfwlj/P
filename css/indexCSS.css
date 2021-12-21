@@ -1,0 +1,164 @@
+/* ========== Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* ========== TYP HIERONDER JOUW CODE ========== */
+body{
+    height: 1000px;
+}
+footer{
+    margin-bottom: -1500px;
+}
+#start{
+    margin-top: 100px;
+    height: 600px;
+    width: 97%;
+    margin: auto;
+    background-image: url('../images/office2.jpg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    background-position-x: 500px;
+    overflow: hidden;
+}
+#welkomTitel{
+    font-size: 59px;
+}
+#sloganTitel{
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+#welkomBeschrijving{
+    margin-top: 100px;
+    white-space: pre-line;
+    font-size: 20px;
+    color: black;
+}
+#startText{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+#registreer a{
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    color: #10689e;
+}
+#registreer a:hover{
+    text-decoration: underline;
+}
+#registreer{
+    margin-left: 10px;
+}
+
+#promotie{
+    position: absolute;
+    top: 75%;
+    width: 80%;
+    height: 600px;
+    left: 10%;
+    
+}
+#slides{
+    margin-top: -1010px;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+#slide1{
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    text-align: left;
+    background-image: url('gif3.gif');
+    background-position: right;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    border-bottom: 1px solid black;
+}
+
+#mainSlideText{
+    font-weight: bold;
+    margin-top: 250px;
+    width: 615px;
+    font-size: 30px;
+    margin-left: 50px;
+    opacity: 0;
+}
+#slideP{
+    position: absolute;
+    top: 550px;
+    left: 20px;
+    text-decoration: underline;
+}
+
+#slideButtons{
+    position: absolute;
+    top: 91%;
+    left: 40%;
+    width: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    animation: fadein 4s;
+    z-index: 1;
+}
+#slideButtons i{
+    text-align: center;
+    cursor: pointer;
+}
+.allSlides{
+    z-index: -1;
+}
+
+#premiumDiv{
+    margin-top: 40%;
+    width: 75%;
+    margin-left: 15%;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#premiumText{
+    padding-left: 20px;
+}
+#premiumText ul{
+    margin-top: 50px;
+}
+#premiumText h2{
+    font-size: 35px;
+    margin-top: 80px;
+}
+#premiumText li{
+    list-style:square;
+    white-space: pre-line;
+}
+#logoPremium{
+    width: 500px;
+    height: 500px;
+    background-image: url('../images/kroon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*======== Keyframes =======*/
+@keyframes fadein{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slidein{
+    from {
+        margin-top: -1010px;
+    }
+    to {
+        margin-top: 0;
+    }
+}

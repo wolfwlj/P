@@ -1,0 +1,171 @@
+/* ========== Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ========== TYP HIERONDER JOUW CODE ========== */
+.container-fluid{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+
+}
+
+.container-fluid h2{
+    color: black;
+    position: relative;
+    width: 23rem;
+}
+
+.container-fluid h2::after{
+position: absolute;
+content:"";
+bottom: 0;
+right: 63px;
+width: 67px;
+height: 2px;
+background-color: black;
+}
+
+.accordion{
+    height: 75px;
+  width: 100%;
+  padding:0 5px;
+  border: 2px solid black;  
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.accordion .icon{
+margin: 0 10px 0 0;
+width: 30px;
+height: 30px;
+background: url("/images/plus-icon-21715.png");
+background-size:100%;
+border-radius: 50%;
+float: left;
+transition: all .5s ease-in;
+}
+
+.accordion .SniperMonkey{
+    font-size: 22px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+    color: black;
+}
+
+.panel{
+    padding: 0 15px;
+    border-left: 1px solid black;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .5s ease-in;
+}
+
+footer{
+    margin-bottom: -900px;
+}
+
+#h1{
+    text-align: center;
+}
+
+#h3{
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.active1 .icon{
+    background: url("/images/Minus.png") no-repeat -4px -5px #fff;
+    background-size: 130%;
+}
+
+
+
+
+
+
+/* form */
+
+
+#titelMain{
+    margin-left: 36.5%;
+    margin-top: 0;
+}
+.input {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#FormContainer {
+    height: 530px;
+    width: 600px;
+    padding: 5px;
+    border: black solid 1px;
+    margin: 0;
+    position: relative;
+    top: 0%;
+    left: 85%;
+    transform: translate(-150%, 10%);
+}
+#form1 {
+    padding: 10px;
+    width: 550px;
+}
+    
+    #VNaam {
+        margin-top: 10px;
+        width: 550px;
+        padding: 4px;
+        border: none;
+    }
+    #ANaam {
+        margin-top: 10px;
+        width: 550px;
+        padding: 4px;
+        border: none;
+    }
+    #VNaam:hover{
+        border: 1px black solid;
+    }
+    #ANaam:hover{
+        border: 1px black solid;
+    }
+
+    #email, #telefoon, #bod{
+        margin-top: 10px;
+        width: 550px;
+        padding: 4px;
+        border: none;
+    }
+    #email:hover, #telefoon:hover, #bod:hover{
+        border: 1px black solid;
+    }
+
+    #TextBox{
+        resize: horizontal;
+        margin-top: 10px;
+        height: 100px;
+        width: 550px;
+        padding: 4px;
+        border: none;
+        max-width: 100%;
+    }
+    #TextBox:hover{
+        border: 1px black solid;
+    }
+    #sub {
+        padding: 4px;
+       
+    }
+    .check{
+    
+    }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regStyle.css">
+</head>
+
+<body>
+    <form method ="POST" autocomplete="off" action="../php/registratieCONF.php">
+        <div id="inlogblok">
+            <h2>Registreren bij PlanCo</h2>
+            <label class="labels" for="email">Email:</label>
+            <input type="email" name="email" placeholder="E-mailadres"><br>
+
+            <label class="labels" for="password">Wachtwoord:</label>
+            <input type="password" name="password" placeholder="Wachtwoord"><br>
+
+            <label class="labels" for="herhaal">Herhaal wachtwoord:</label>
+            <input type="password" name="herhaal" placeholder="Herhaal wachtwoord"><br>
+
+
+
+            <button id="inlogKnop" name="reg" type="submit"><b>Registreren</b></button><br>
+
+        </div>
+    </form>
+
+    <footer>
+        <div id="footerLeft">
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div id="footerRight">
+            <p>PlanCo &copy;</p>
+        </div>
+    </footer>
+</body>
+
+</html>

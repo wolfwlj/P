@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepagina - PlanCo</title>
+
+  <link rel="stylesheet" href="huisstijl/style.css">
+  <script src="huisstijl/js.js"></script>
+  <link rel="stylesheet" href="css/indexCSS.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $('#header').load("huisstijl/header.html");
+      $('#footer').load("huisstijl/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div id="screen">
+  </div>
+  <br>
+  <br>
+  <div id="start">
+    <div id="startText">
+      <h1 id="welkomTitel"></h1>
+      <p id="sloganTitel"></p>
+      <p id="welkomBeschrijving"><b>De effici&#x00eb;ntste en toegankelijkste manier van plannen.<br>
+          Van bedrijf tot particulier, PlanCo probeert iedereen<br>
+          een handje te helpen bij het maken van een plannning.
+        </b></p>
+    </div>
+    <p id="registreer">Nog geen lid? <a href="loginstatus/registreer.html">Registreer je hier!</a></p>
+  </div>
+
+
+
+  <br>
+
+
+
+  <div id="promotie">
+    <div id="slides">
+      <div id="slideButtons">
+        <div>
+          <i onclick="currentSlide(1)" class="fas fa-circle" id="slideB1"></i>
+        </div>
+        <div>
+          <i onclick="currentSlide(2)" class="far fa-circle" id="slideB2"></i>
+        </div>
+        <div>
+          <i onclick="currentSlide(3)" class="far fa-circle" id="slideB3"></i>
+        </div>
+      </div>
+      <div class="allSlides" id="slide1">
+        <p class="slideText" id="mainSlideText">Gemakkelijk jouw planningen <br>ordenen op de gewenste dagen.</p>
+        <p class="slideText" id="slideP">PlanCo.</p>
+      </div>
+      <div class="allSlides" id="slide2"></div>
+      <div class="allSlides" id="slide3"></div>
+      <div class="allSlides" id="slide4"></div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div id="premiumDiv">
+    <div id="premiumText">
+      <h2>Haal PlanCo Premium!</h2>
+      <br>
+        <ul>
+          <li>Maximaal 50 Deelnemers</li><br>
+          <li>Meer dan 40 plannen</li><br>
+          <li>Upload bestanden die groter zijn dan 8.00 mb</li><br>
+          <li>Meer personaliseer-opties</li>
+        </ul>
+    </div>
+    <div id="logoPremium"></div>
+  </div>
+
+
+
+
+
+  <div id="footer"></div>
+  <script type="text/javascript" src="javascript/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>

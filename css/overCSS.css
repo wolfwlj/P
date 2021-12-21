@@ -1,0 +1,124 @@
+/* ========== Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ========== TYP HIERONDER JOUW CODE ========== */
+body{
+margin: 0;
+}
+
+#margin{
+    width: 1400px;
+    margin: auto;
+    }
+#peader{
+    width: 90%;
+    position: relative;
+    top: 39px;
+    margin-bottom: 1%;
+    margin: auto;
+}
+#headerr{
+    width: 75%;
+    height: 75%;
+    margin-left: 13%;
+}
+#intro{
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    width: 1000px;
+}
+#foto1{
+    height: 450px;
+    width: 450px;
+    background-image: url("../images/MACEO.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+#foto2{
+    height: 450px;
+    width: 450px;
+    background-image: url("../images/wolf.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#foto3{
+    height: 450px;
+    width: 450px;
+    background-image: url("../images/diego.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#foto4{
+    height: 450px;
+    width: 450px;
+    background-image: url("../images/Rekan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+footer{
+    margin-bottom: -2863px;
+}
+#fottos{
+    display: grid;
+    grid-template-areas: "div1 div5"
+                         "div6 div2"
+                         "div3 div7"
+                         "div8 div4";
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: 500px 500px ;
+    margin-left: 15%;
+}
+#fotto1{
+    grid-area: div1;
+    
+}
+#fotto2{
+    grid-area: div2;
+    
+}
+#fotto3{
+    grid-area: div3;
+    
+}
+#fotto4{
+    grid-area: div4;
+    
+}
+#team{
+    text-align: center;
+}
+
+#tekstdiv1{
+    grid-area: div5;
+    text-align: center;
+
+}
+#tekstdiv2{
+    grid-area: div6;
+    text-align: center;
+}
+#tekstdiv3{
+    grid-area: div7;
+    text-align: center;
+}
+#tekstdiv4{
+    grid-area: div8;
+    text-align: center;
+}
+
+.tekst{
+
+}
+
+#groeps{
+    width: 500px;
+    margin-left: 450px;
+}

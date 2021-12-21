@@ -1,0 +1,123 @@
+/* ========== Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* ========== Inlogblok ========== */
+body{
+        background-color: #f5f4f4;
+    }
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -5%;
+    left: -3%;
+}
+input{
+    border: 1px solid black;
+    outline: none;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+#inlogKnop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background-color: #2a526b;
+    border: none;
+    border-radius: 10px;
+    color: #e9eaec;
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    transition: 0.1s;
+}
+#inlogKnop:hover{
+    background-color: #375f77;
+    transition: 0.1s;
+}
+#inlogblok{
+    margin-top: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 1px solid black;
+    height: 400px;
+    padding-top: 60px;
+    background-color: white;
+}
+#inlogblok p{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#inlogblok a{
+    text-decoration: none;
+    color: #10689e;
+    transition: 0.1s;
+}
+
+#inlogblok a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+.labels{
+    position: relative;
+    left: 22.2%;
+    top: -1.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+
+
+/*===== Footer =====*/
+
+footer{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    height: 25px;
+    max-height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#footerLeft{
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+#footerLeft a{
+    text-decoration: none;
+    color: rgb(170, 169, 169);
+}
+#footerLeft a:hover{
+    text-decoration: underline;
+}
+#footerRight{
+    text-align: right;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -13px;
+    margin-right: 5px;
+}
+#footerRight p{
+    color: rgb(170, 169, 169);
+}

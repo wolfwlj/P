@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <script type="text/javascript">
+    const currentlocation = location.href;
+const menuItem = document.getElementsByClassName('ayo');
+const menuLength = menuItem.length;
+for (let i = 0; i < menuLength; i++) {
+    if(menuItem[i].href === currentlocation){
+        menuItem[i].className = "active"
+    }
+    
+}</script>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div id="title">
+                <img id="logoHeader" src="huisstijl/planco.png" alt="logo">
+            </div>
+            <div id="headerItems">
+                <div id="daItemsCover">
+                    <a href="index.html" class="ayo">Overview</a>
+                    <a href="Planning.html" class="ayo">Planning</a>
+                    <a href="contact.html" class="ayo">Contact</a>
+                    <a href="over.html" class="ayo">Over ons</a>
+                    <button onclick="location.href='loginstatus/login.html';" id="status"><b>Log In</b></button>
+                </div>
+            </div>
+        </div>
+        <div id="otherPages">
+            <!--Deelnemers-->
+            <!--<div id="deel-div" class="pageDivs"> <i class="fas fa-user-friends"></i><a href="#">Deelnemers</a></div>-->
+            <div id="FAQ-div" class="pageDivs">
+                <i class="far fa-comments"></i>
+                <a href="#">FAQ</a>
+            </div>    
+            <div id="settings" class="pageDivs">
+                <i class="fas fa-cogs"></i>
+                <a href="#">Instellingen</a>
+            </div>
+        </div>
+        <hr id="streepje">
+    </header>
+
+    <script src="https://kit.fontawesome.com/394a21a48e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

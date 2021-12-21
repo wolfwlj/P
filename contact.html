@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Pagina - PlanCo</title>
+  <link rel="stylesheet" href="huisstijl/style.css">
+  <script src="javascript/FAQ.js"></script>
+  <script src="huisstijl/js.js"></script>
+  <link rel="stylesheet" href="css/contactCSS.css">
+  <link rel="stylesheet" href="css/contactCSS.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $('#header').load("huisstijl/header.html");
+      $('#footer').load("huisstijl/footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <div id="header"></div>
+  <br><br>
+  <h1 id="h1">Neem contact op:</h1>
+  <hr class="hr">
+  <h4 id="h3">Als u problemen heeft met u planning of wellicht niet weet hoe u iets moet doen, check dan onze FAQ.
+    <br><br>
+    Als u daarna meer vragen heeft en toch niet op een antwoord kan komen, <br>
+    dan kunt u altijd nog contact opnemen met onze klantenservice.</h4>
+
+
+  <div class="container-fluid">
+    <h2 id="efSnel">Veelgestelde vragen (FAQs)</h2>
+    <div class="accordion">
+      <div class="icon"></div>
+      <p class="SniperMonkey">vraag1</p>
+      </div>
+      <div class="panel">
+        <p class="p">Antwoord1</p>
+      </div>
+
+    <div class="accordion">
+      <div class="icon"></div>
+      <p class="SniperMonkey" >vraag2</p>
+      </div>
+      <div class="panel">
+        <p class="p">Antwoord2</p>
+      </div>
+
+    <div class="accordion">
+      <div class="icon"></div>
+      <p class="SniperMonkey">vraag3</p>
+    </div>
+      <div class="panel">
+        <p class="p">Antwoord3</p>
+      </div>
+   
+
+    <div class="accordion">
+      <div class="icon"></div>
+      <p class="SniperMonkey" >vraag4</p>
+    </div>
+      <div class="panel">
+        <p class="p">Antwoord4</p>
+      </div>
+  </div>
+
+
+
+
+
+  <div id="FormContainer">
+    <h3 id="titelMain">Contactformulier</h3>
+    <form id="form1" action="php/contact.php" method="POST">
+
+        <label class="Label" for="1">Voornaam</label>
+        <input type="text" name="1" class="input" id="VNaam" placeholder="Schrijf hier uw voornaam...">
+        <br>
+
+        <label class="Label" for="4">Achternaam</label>
+        <input type="text" name="4" class="input" id="ANaam" placeholder="Schrijf hier uw achternaam...">
+        <br>
+
+        <label for="2">E-mail</label>
+        <input type="text" name="2" class="input" id="email" placeholder="Schrijf hier uw e-mailadres...">
+        <br>
+
+        <label for="3">Telefoonnummer</label>
+        <input type="text" name="3" class="input" id="telefoon" placeholder="Schrijf hier uw telefoonnummer...">
+        <br>
+
+
+
+
+
+
+        <label for="5">Bericht</label>
+        <textarea type="text" name="5" class="input" id="TextBox"
+            placeholder="Schrijf hier uw bericht..."></textarea>
+
+
+        <input type="submit" value="Stuur bericht" id="sub" name="submit">
+    </form>
+</div>
+
+
+  <div id="footer"></div>
+  <script src="javascript/FAQ.js"></script>
+</body>
+
+</html>
